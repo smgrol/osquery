@@ -3,7 +3,7 @@ static const char i386_syscall_strings[] = "_llseek\0_newselect\0_sysctl\0access
 	"bpf\0break\0brk\0capget\0capset\0chdir\0chmod\0chown\0chown32\0chroot\0"
 	"clock_adjtime\0clock_getres\0clock_gettime\0clock_nanosleep\0clock_settime\0clone\0close\0creat\0create_module\0delete_module\0"
 	"dup\0dup2\0dup3\0epoll_create\0epoll_create1\0epoll_ctl\0epoll_pwait\0epoll_wait\0eventfd\0eventfd2\0"
-	"execve\0execveat\0exit\0exit_group\0faccessat\0fadvise64\0fadvise64_64\0fallocate\0fanotify_init\0fanotify_mark\0"
+	"execve\0execveat\0splice\0exit\0exit_group\0faccessat\0fadvise64\0fadvise64_64\0fallocate\0fanotify_init\0fanotify_mark\0"
 	"fchdir\0fchmod\0fchmodat\0fchown\0fchown32\0fchownat\0fcntl\0fcntl64\0fdatasync\0fgetxattr\0"
 	"finit_module\0flistxattr\0flock\0fork\0fremovexattr\0fsetxattr\0fstat\0fstat64\0fstatat64\0fstatfs\0"
 	"fstatfs64\0fsync\0ftime\0ftruncate\0ftruncate64\0futex\0futimesat\0get_kernel_syms\0get_mempolicy\0get_robust_list\0"

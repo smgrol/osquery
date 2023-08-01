@@ -1,7 +1,7 @@
 /* This is a generated file, see Makefile.am for its inputs. */
 static const char aarch64_syscall_strings[] = "accept\0accept4\0acct\0add_key\0adjtimex\0bind\0bpf\0brk\0capget\0capset\0"
 	"chdir\0chroot\0clock_adjtime\0clock_getres\0clock_gettime\0clock_nanosleep\0clock_settime\0clone\0close\0connect\0"
-	"delete_module\0dup\0dup3\0epoll_create1\0epoll_ctl\0epoll_pwait\0eventfd2\0execve\0execveat\0exit\0"
+	"delete_module\0dup\0dup3\0epoll_create1\0epoll_ctl\0epoll_pwait\0eventfd2\0execve\0execveat\0splice\0exit\0"
 	"exit_group\0faccessat\0fadvise64\0fallocate\0fanotify_init\0fanotify_mark\0fchdir\0fchmod\0fchmodat\0fchown\0"
 	"fchownat\0fcntl\0fdatasync\0fgetxattr\0finit_module\0flistxattr\0flock\0fremovexattr\0fsetxattr\0fstatfs\0"
 	"fsync\0ftruncate\0futex\0get_mempolicy\0get_robust_list\0getcpu\0getcwd\0getdents\0getegid\0geteuid\0"

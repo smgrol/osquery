@@ -22,6 +22,7 @@ namespace {
 const std::unordered_map<int, std::string> kSyscallNameMap = {
     {__NR_execve, "execve"},
     {__NR_execveat, "execveat"},
+    {__NR_splice, "splice"},
     {__NR_clone, "clone"},
     {__NR_kill, "kill"},
     {__NR_tkill, "tkill"},

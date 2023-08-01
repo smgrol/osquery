@@ -3,7 +3,7 @@ static const char ppc_syscall_strings[] = "_llseek\0_newselect\0_sysctl\0accept\
 	"alarm\0bdflush\0bind\0bpf\0break\0brk\0capget\0capset\0chdir\0chmod\0"
 	"chown\0chroot\0clock_adjtime\0clock_getres\0clock_gettime\0clock_nanosleep\0clock_settime\0clone\0close\0connect\0"
 	"creat\0create_module\0delete_module\0dup\0dup2\0dup3\0epoll_create\0epoll_create1\0epoll_ctl\0epoll_pwait\0"
-	"epoll_wait\0eventfd\0eventfd2\0execve\0execveat\0exit\0exit_group\0faccessat\0fadvise64\0fadvise64_64\0"
+	"epoll_wait\0eventfd\0eventfd2\0execve\0execveat\0splice\0exit\0exit_group\0faccessat\0fadvise64\0fadvise64_64\0"
 	"fallocate\0fanotify_init\0fanotify_mark\0fchdir\0fchmod\0fchmodat\0fchown\0fchownat\0fcntl\0fcntl64\0"
 	"fdatasync\0fgetxattr\0finit_module\0flistxattr\0flock\0fork\0fremovexattr\0fsetxattr\0fstat\0fstat64\0"
 	"fstatat64\0fstatfs\0fstatfs64\0fsync\0ftime\0ftruncate\0ftruncate64\0futex\0futimesat\0get_kernel_syms\0"

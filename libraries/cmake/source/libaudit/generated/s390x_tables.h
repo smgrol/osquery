@@ -2,7 +2,7 @@
 static const char s390x_syscall_strings[] = "_sysctl\0access\0acct\0add_key\0adjtimex\0afs_syscall\0alarm\0bdflush\0bpf\0brk\0"
 	"capget\0capset\0chdir\0chmod\0chown\0chroot\0clock_adjtime\0clock_getres\0clock_gettime\0clock_nanosleep\0"
 	"clock_settime\0clone\0close\0creat\0create_module\0delete_module\0dup\0dup2\0dup3\0epoll_create\0"
-	"epoll_create1\0epoll_ctl\0epoll_pwait\0epoll_wait\0eventfd\0eventfd2\0execve\0execveat\0exit\0exit_group\0"
+	"epoll_create1\0epoll_ctl\0epoll_pwait\0epoll_wait\0eventfd\0eventfd2\0execve\0execveat\0splice\0exit\0exit_group\0"
 	"faccessat\0fadvise64\0fallocate\0fanotify_init\0fanotify_mark\0fchdir\0fchmod\0fchmodat\0fchown\0fchownat\0"
 	"fcntl\0fdatasync\0fgetxattr\0finit_module\0flistxattr\0flock\0fork\0fremovexattr\0fsetxattr\0fstat\0"
 	"fstatfs\0fstatfs64\0fsync\0ftruncate\0futex\0futimesat\0get_kernel_syms\0get_robust_list\0getcpu\0getcwd\0"

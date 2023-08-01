@@ -2,7 +2,7 @@
 static const char arm_syscall_strings[] = "accept\0accept4\0access\0acct\0add_key\0adjtimex\0alarm\0bdflush\0bind\0bpf\0"
 	"brk\0capget\0capset\0chdir\0chmod\0chown\0chown32\0chroot\0clock_adjtime\0clock_getres\0"
 	"clock_gettime\0clock_nanosleep\0clock_settime\0clone\0close\0connect\0creat\0delete_module\0dup\0dup2\0"
-	"dup3\0epoll_create\0epoll_create1\0epoll_ctl\0epoll_wait\0eventfd\0eventfd2\0execve\0execveat\0exit\0"
+	"dup3\0epoll_create\0epoll_create1\0epoll_ctl\0epoll_wait\0eventfd\0eventfd2\0execve\0execveat\0splice\0exit\0"
 	"exit_group\0faccessat\0fadvise64_64\0fallocate\0fanotify_init\0fanotify_mark\0fchdir\0fchmod\0fchmodat\0fchown\0"
 	"fchown32\0fchownat\0fcntl\0fcntl64\0fdatasync\0fgetxattr\0finit_module\0flistxattr\0flock\0fork\0"
 	"fremovexattr\0fsetxattr\0fstat\0fstat64\0fstatat64\0fstatfs\0fstatfs64\0fsync\0ftruncate\0ftruncate64\0"

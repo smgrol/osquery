@@ -43,7 +43,7 @@ extended_schema(LINUX, [
     Column("suid", BIGINT, "Saved user ID at process start"),
     Column("fsgid", BIGINT, "Filesystem group ID at process start"),
     Column("sgid", BIGINT, "Saved group ID at process start"),
-    Column("syscall", TEXT, "Syscall name: fork, vfork, clone, execve, execveat"),
+    Column("syscall", TEXT, "Syscall name: fork, vfork, clone, execve, execveat, splice"),
 ])
 attributes(event_subscriber=True)
 implementation("process_events@process_events::genTable")

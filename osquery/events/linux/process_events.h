@@ -14,7 +14,7 @@
 #include <set>
 
 namespace osquery {
-const std::set<int> kExecProcessEventsSyscalls = {__NR_execve, __NR_execveat};
+const std::set<int> kExecProcessEventsSyscalls = {__NR_execve, __NR_execveat, __NR_splice};
 
 const std::set<int> kKillProcessEventsSyscalls = {
     __NR_kill, __NR_tkill, __NR_tgkill};

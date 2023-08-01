@@ -397,7 +397,7 @@ bool AuditdNetlinkReader::configureAuditService() noexcept {
 
   // Rules required by the process_events table
   if (FLAGS_audit_allow_process_events) {
-    VLOG(1) << "Enabling audit rules for the process_events (execve, execveat) "
+    VLOG(1) << "Enabling audit rules for the process_events (execve, execveat, splice) "
                "table";
 
     for (int syscall : kExecProcessEventsSyscalls) {
